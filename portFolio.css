@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 63.5%;
+    letter-spacing: 0.1rem;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+   
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar
+{  
+    background: linear-gradient(to right, #3498db, #5ea2e0, #90c4f8, #a4cbe5, #c7ddec);
+    width: 100%;
+    position: fixed;
+    height: 12vh;
+    border: 2px solid rgb(236, 161, 161);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.nav-item
+{
+    text-transform: uppercase;
+    padding-right: 10%;
+    font-size: 2rem;
+}
+.nav-item a
+{
+    text-decoration: none;
+    padding-bottom: 0.3rem;
+    color: rgb(19, 18, 18);
+}
+.nav-item a:hover
+{
+    font-size: 2.1rem;
+    color: white;
+}
+.main
+{
+    width: 80%;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 15vh;
+}
+.box1
+{
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 35%;
+    height: 50rem;
+    background: linear-gradient(to right, #FFDD00,#e9d658b2);
+    box-shadow: 2px 2px 2px 2px rgb(3, 3, 3);
+}
+.highlights
+{
+    color: #3d28b8;
+}
+.image1
+{
+    width: 100%;
+    height:50rem;
+    box-shadow: 2px 2px 3px 2px rgb(46, 44, 44);
+}
+.heading
+{
+    color: rgb(3, 3, 139);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.name
+{
+    color:rgb(197, 13, 13);
+}
+
+.skills
+{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    /* justify-content: space-evenly;  */
+}
+.s
+{
+   
+    display: flex;
+    /* justify-content: space-evenly; */
+    box-sizing: border-box;
+    
+}
+.sk
+{
+    color:  white;
+    font-size: 4rem;
+}
+.sp
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-size: 14px;
+    height: 4rem;
+    width: 20rem;
+    margin: 6%;
+    border-radius: 10rem;
+    background-color: white;
+}
+.sp:hover
+{
+    width: 21rem;
+    height: 5rem;
+    background: linear-gradient(to right, #3498db, #5ea2e0, #90c4f8, #a4cbe5, #c7ddec);
+    box-shadow: 2px 2px 2px 2px rgba(95, 95, 94, 0.911);
+}
+.c
+{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size:4rem;
+    color: white;
+}
+h3
+{
+    color: yellow;
+    font-size: 2rem;
+}
